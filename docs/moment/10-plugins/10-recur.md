@@ -13,6 +13,7 @@ It provides a `matches` function to test whether a date recurs according to the 
 
 The repository, documentation, and many more examples can be found at [github.com/c-trimm/moment-recur](https://github.com/c-trimm/moment-recur)
 
+<!-- skip-example -->
 ```js
 var interval = moment( "01/01/2014" ).recur().every(2).days(); // Length Interval
 interval.matches( "01/03/2014" ); // true
