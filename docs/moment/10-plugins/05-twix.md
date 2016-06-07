@@ -8,6 +8,7 @@ signature: |
 Another range plugin is Isaac Cambron's library `Twix`. It has many
 range-related features and excels at formatting ranges readably. For example,
 
+<!-- skip-example -->
 ```javascript
 var t = moment("1/25/1982 9:30 AM").twix("1/25/1982 1:30 PM");
 t.isCurrent(); // false

@@ -7,12 +7,14 @@ If you are using OLE Automation dates in .NET check out Markit On Demand's `mome
 
 Convert a `moment` to an OA date:
 
+<!-- skip-example -->
 ```javascript
 moment().toOADate(); // a floating point number
 ```
 
 Or, convert an OA date to a `moment`:
 
+<!-- skip-example -->
 ```javascript
 moment.fromOADate(41493); // Wed Aug 07 2013 00:00:00 GMT-0600 (MDT)
 ```

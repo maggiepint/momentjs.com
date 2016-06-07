@@ -7,6 +7,7 @@ If you're trying to format times for tweets like the way Twitter does, you can u
 
 It's a simple way to display both short and long versions of human-readable timestamps.
 
+<!-- skip-example -->
 ```javascript
 moment().subtract(5, 'hours').twitterLong();
 // 5 hours
@@ -14,6 +15,7 @@ moment().subtract(5, 'hours').twitterLong();
 
 Yes, it does smart pluralization.
 
+<!-- skip-example -->
 ```javascript
 moment().subtract(1, 'hour').twitterLong();
 // 1 hour
@@ -21,6 +23,7 @@ moment().subtract(1, 'hour').twitterLong();
 
 Not short enough for you?
 
+<!-- skip-example -->
 ```javascript
 moment().subtract(6, 'days').twitterShort();
 // 6d

@@ -7,6 +7,7 @@ signature: |
 
 This plugin extracts the format of a date/time string. 
 
+<!-- skip-example -->
 ```javascript
 var format = moment.parseFormat('Thursday, February 6th, 2014 9:20pm');
 // dddd, MMMM Do, YYYY h:mma

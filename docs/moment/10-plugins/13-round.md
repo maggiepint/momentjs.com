@@ -9,6 +9,7 @@ This is a plugin will round date/time to a given interval.
 
 For example,
 
+<!-- skip-example -->
 ``` javascript
 var m = new moment(); // 2015-06-18 15:30:19
 moment.round(5, 'seconds'); // 2015-06-18 15:30:20

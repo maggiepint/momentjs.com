@@ -7,6 +7,7 @@ If you ever have need for [Fiscal](http://en.wikipedia.org/wiki/Fiscal_year), Ca
 
 At its simplest, just call the fquarter method on any moment object. It returns a formatted string with April being the first quarter.
 
+<!-- skip-example -->
 ```javascript
 moment("2013-01-01").fquarter();
 // Q4 2012/13
@@ -14,6 +15,7 @@ moment("2013-01-01").fquarter();
 
 You can pass in any month as the starting quarter, e.g. July
 
+<!-- skip-example -->
 ```javascript
 moment("2013-01-01").fquarter(7);
 // Q3 2012/13
@@ -21,6 +23,7 @@ moment("2013-01-01").fquarter(7);
 
 If you want calendar quarters, start in January
 
+<!-- skip-example -->
 ```javascript
 moment("2013-01-01").fquarter(1);
 // Q1 2013
