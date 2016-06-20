@@ -4,7 +4,7 @@ title: System.js
 
 To load moment, place it in the path specified by your System.config in the baseURL configuration. 
 Then import it into your page.
-
+<!-- skip-example -->
 ```js
 <script src="system.js"></script>
 <script>
@@ -18,7 +18,7 @@ Then import it into your page.
 
 
 If you need moment to be loaded as global, you can do this with the meta configuration:
-
+<!-- skip-example -->
 ```javascript
 System.config({
   meta: {
@@ -28,7 +28,7 @@ System.config({
 ```
 
 Alternatively, to provide Moment as a global to only a specific dependency, you can do this:
-
+<!-- skip-example -->
 ```javascript
 System.config({
   meta: {
